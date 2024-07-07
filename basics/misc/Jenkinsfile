@@ -1,5 +1,7 @@
 node {
    def commit_id
+   def docker_login = 'shahardocker'
+   def docker_image = 'sasnow/devopscurse'
    stage('step pre') {
      checkout scm
      sh "git rev-parse --short HEAD > .git/commit-id"                        
