@@ -1,4 +1,4 @@
-FROM microsoft/aspnetcore-build as build-image
+FROM mcr.microsoft.com/dotnet/aspnet
 
 WORKDIR /home/app
 
